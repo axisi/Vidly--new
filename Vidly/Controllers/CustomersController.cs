@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Vidly.ViewModels;
 using Vidly.Models;
+using System.Data.Entity;
 
 namespace Vidly.Controllers
 {
@@ -23,7 +24,7 @@ namespace Vidly.Controllers
         public ActionResult Index()
         {
 
-            var Customers = _context.Customers.ToList();
+            var Customers = _context.Customers.Include(c => c.MembershipType).ToList();
             //var Customers = GetCustomers();//wczytywanie bez bazy danych
            
             return View(Customers);
