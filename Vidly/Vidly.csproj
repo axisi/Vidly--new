@@ -230,6 +230,18 @@
     <Compile Include="Migrations\201812302037126_UpdateDataInDBMembershipType.Designer.cs">
       <DependentUpon>201812302037126_UpdateDataInDBMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812302102446_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\201812302102446_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>201812302102446_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812302104401_AddBirthDateToSomeRecords.cs" />
+    <Compile Include="Migrations\201812302104401_AddBirthDateToSomeRecords.Designer.cs">
+      <DependentUpon>201812302104401_AddBirthDateToSomeRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812302201013_ChanceModelToBirthDate.cs" />
+    <Compile Include="Migrations\201812302201013_ChanceModelToBirthDate.Designer.cs">
+      <DependentUpon>201812302201013_ChanceModelToBirthDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -345,6 +357,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812302037126_UpdateDataInDBMembershipType.resx">
       <DependentUpon>201812302037126_UpdateDataInDBMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812302102446_AddBirthDateToCustomer.resx">
+      <DependentUpon>201812302102446_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812302104401_AddBirthDateToSomeRecords.resx">
+      <DependentUpon>201812302104401_AddBirthDateToSomeRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812302201013_ChanceModelToBirthDate.resx">
+      <DependentUpon>201812302201013_ChanceModelToBirthDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
