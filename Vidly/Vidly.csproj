@@ -242,9 +242,26 @@
     <Compile Include="Migrations\201812302201013_ChanceModelToBirthDate.Designer.cs">
       <DependentUpon>201812302201013_ChanceModelToBirthDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901021946377_AddGenreClass.cs" />
+    <Compile Include="Migrations\201901021946377_AddGenreClass.Designer.cs">
+      <DependentUpon>201901021946377_AddGenreClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021949314_AddSomeRecordsToGenreTable.cs" />
+    <Compile Include="Migrations\201901021949314_AddSomeRecordsToGenreTable.Designer.cs">
+      <DependentUpon>201901021949314_AddSomeRecordsToGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901021957157_AddSomeMoviesToDatabase.cs" />
+    <Compile Include="Migrations\201901021957157_AddSomeMoviesToDatabase.Designer.cs">
+      <DependentUpon>201901021957157_AddSomeMoviesToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901022007085_AddSomeMoviesToDatabase2.cs" />
+    <Compile Include="Migrations\201901022007085_AddSomeMoviesToDatabase2.Designer.cs">
+      <DependentUpon>201901022007085_AddSomeMoviesToDatabase2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -319,6 +336,8 @@
     <Content Include="Views\Movies\ListAll.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -366,6 +385,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812302201013_ChanceModelToBirthDate.resx">
       <DependentUpon>201812302201013_ChanceModelToBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021946377_AddGenreClass.resx">
+      <DependentUpon>201901021946377_AddGenreClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021949314_AddSomeRecordsToGenreTable.resx">
+      <DependentUpon>201901021949314_AddSomeRecordsToGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901021957157_AddSomeMoviesToDatabase.resx">
+      <DependentUpon>201901021957157_AddSomeMoviesToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901022007085_AddSomeMoviesToDatabase2.resx">
+      <DependentUpon>201901022007085_AddSomeMoviesToDatabase2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
